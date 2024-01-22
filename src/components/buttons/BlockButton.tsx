@@ -3,7 +3,7 @@ import { Button, Flex } from 'antd'
 
 const BlockButton = () => {
 	return (
-		<Flex vertical gap='small' style={{ width: '100%' }}>
+		<Flex vertical gap='large' style={{ width: '100%' }}>
 			<Button type='primary' block>
 				Primary
 			</Button>

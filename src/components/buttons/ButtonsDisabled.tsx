@@ -3,7 +3,12 @@ import { Button, Flex } from 'antd'
 
 const ButtonsDisabled: React.FC = () => {
 	return (
-		<Flex gap='small' align='flex-start' vertical>
+		<Flex
+			gap='large'
+			align='center'
+			vertical
+			style={{ justifyContent: 'center' }}
+		>
 			<Flex gap='small'>
 				<Button type='primary'>Primary</Button>
 				<Button type='primary' disabled>

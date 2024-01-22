@@ -3,7 +3,7 @@ import { Button, Flex } from 'antd'
 
 const DangerButtons = () => {
   return (
-		<Flex wrap='wrap' gap='small'>
+		<Flex justify='center' wrap='wrap' gap='large'>
 			<Button type='primary' danger>
 				Primary
 			</Button>

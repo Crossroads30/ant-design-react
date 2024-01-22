@@ -4,7 +4,7 @@ import { SearchOutlined, FastForwardOutlined } from '@ant-design/icons'
 
 const ButtonsIcons: React.FC = () => {
   return (
-		<Flex gap='small' vertical>
+		<Flex gap='large' vertical style={{ alignItems: 'center' }}>
 			<Flex wrap='wrap' gap='small'>
 				<Tooltip title='search'>
 					<Button

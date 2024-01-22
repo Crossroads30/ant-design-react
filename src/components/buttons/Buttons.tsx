@@ -3,7 +3,7 @@ import { Button, Flex, Tooltip } from 'antd'
 
 const Buttons: React.FC = () => {
 	return (
-		<Flex gap='small' wrap='wrap'>
+		<Flex gap='large' wrap='wrap' style={{justifyContent:'center'}}>
 			<Button type='primary'>Primary Button</Button>
 			<Button>Default Button</Button>
 			<Button type='dashed'>Dashed Button</Button>

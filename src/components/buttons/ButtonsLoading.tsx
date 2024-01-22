@@ -22,7 +22,7 @@ const ButtonsLoading: React.FC = () => {
 	}
 
 	return (
-		<Flex gap='small' vertical>
+		<Flex gap='large' vertical style={{ alignItems: 'center' }}>
 			<Flex gap='small' align='center' wrap='wrap'>
 				<Button type='primary' loading>
 					Loading

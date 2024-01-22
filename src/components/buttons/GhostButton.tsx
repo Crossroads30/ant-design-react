@@ -3,7 +3,7 @@ import { Button, Flex } from 'antd'
 
 const GhostButton:React.FC = () => {
 	return (
-		<Flex wrap='wrap' gap='small' className='site-button-ghost-wrapper'>
+		<Flex justify='center' wrap='wrap' gap='large' className='site-button-ghost-wrapper'>
 			<Button type='primary' ghost>
 				Primary
 			</Button>

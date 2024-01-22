@@ -23,12 +23,14 @@ const items = [
 
 const ButtonsMultiple: React.FC = () => {
 	return (
-		<Flex align='flex-start' gap='small' vertical>
+		<Flex align='center' gap='large' vertical>
 			<Button type='primary'>primary</Button>
 			<Button>secondary</Button>
-			<Dropdown.Button menu={{ items, onClick: onMenuClick }}>
-				Actions
-			</Dropdown.Button>
+			<Flex>
+				<Dropdown.Button menu={{ items, onClick: onMenuClick }}>
+					Actions
+				</Dropdown.Button>
+			</Flex>
 		</Flex>
 	)
 }
