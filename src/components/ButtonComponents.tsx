@@ -59,7 +59,7 @@ const ButtonComponents: React.FC = () => (
 const Wrapper = styled.section`
 	padding: 3rem;
 	p {
-		color: var(--clr-grey-8);
+		color: var(--clr-grey-9);
 	}
 	.div {
 		margin-bottom: 1rem;
